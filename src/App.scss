@@ -1,80 +1,78 @@
-*{
-    margin: 0;
-    
+* {
+  margin: 0;
 }
-body {
-    overflow: hidden; /* Hide scrollbars */
+// body {
+//     overflow: hidden; /* Hide scrollbars */
+//   }
+._navbar {
+  padding-top: 10px;
+  height: 60px;
+  position: fixed;
+  background-color: rgba(2, 2, 2, 0.1);
+  width: 100%;
+  ._navbarLeft {
+    width: 20%;
+    float: left;
+    ._navbarButton {
+      padding: 5px;
+      font-size: larger;
+      color: black;
+      font-weight: bold;
+    }
   }
-._navbar{
-    padding-top: 10px;
-    height: 60px;
-    position: fixed;
-    background-color: rgba(2, 2, 2, 0.1 );
-    width: 100%;
-    ._navbarLeft{
-        width: 20%;
-        float: left;
-        ._navbarButton{
-            padding: 5px;
-            font-size: larger;
-            color:black;
-            font-weight: bold;
-        }
-    }
-    ._navbarRight{
-        width: 80%;
-        float: right;
-        text-align: right;
-        justify-content: right;
-        ._navbarButton{
-            padding: 10px;
-            font-size:medium;
-            color:black;
-            font-weight: 600;
-        }
-    }
-
-}
-
-#backToTopBtn{
-    position: fixed;
-    padding: 0;
-    right: 20px;
-    bottom: 20px;
-    width: 60px;
-    height: 60px;
-    border-radius: 100px;
-    background: #e62739;
-    box-shadow: 0 0 15px rgba(0,0,0,0.25); 
-}
-
-.services{
-    height: 100vh;
-    background-color: aqua;
-}
-.about{
-    height: 100vh;
-    background-color: gray;
-}
-.references{
-    height: 100vh;
-    background-color: wheat;
-}
-
-.home{
-    height: 100vh;
-    background-color: white;
-    padding-top: 70px;
-    width: 100%;
-    justify-content: center;
+  ._navbarRight {
+    width: 80%;
     float: right;
+    text-align: right;
+    justify-content: right;
+    ._navbarButton {
+      padding: 10px;
+      font-size: medium;
+      color: black;
+      font-weight: 600;
+    }
+  }
 }
 
-.contact{
-    height: 100vh;
-    background-color: green;
+#backToTopBtn {
+  position: fixed;
+  padding: 0;
+  right: 20px;
+  bottom: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  background: #e62739;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
 }
-.help{
-   height: 100vh;
-   background-color: blue;
+
+.services {
+  height: 100vh;
+  background-color: aqua;
+}
+.about {
+  height: 100vh;
+  background-color: gray;
+}
+.references {
+  height: 100vh;
+  background-color: wheat;
+}
+
+.home {
+  height: 100vh;
+  background-color: white;
+  padding-top: 70px;
+  width: 100%;
+  justify-content: center;
+  float: right;
+}
+
+.contact {
+  height: 100vh;
+  background-color: green;
+}
+.help {
+  height: 100vh;
+  background-color: blue;
 }
