@@ -2,13 +2,10 @@ import logo from "../Images/logo.jpg";
 import React from "react";
 import { Link } from "react-scroll";
 import { Button } from "@material-ui/core";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { Navbar, Nav, NavDropdown, Form, FormControl } from "react-bootstrap";
-
+import { Navbar, Nav } from "react-bootstrap";
 function NavBar() {
   return (
-    <Navbar bg="light" variant="light" className="fixed-top" expand="lg">
+    <Navbar bg='light' variant="light" className="fixed-top" expand="lg">
       <Navbar.Brand className="navBarLogo">
         <Link to="mainHome" smooth={true} duration={900}>
           <Button className="_navbarButton">

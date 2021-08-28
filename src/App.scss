@@ -4,7 +4,6 @@
   margin: 0;
 }
 body {
-  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,9 +12,10 @@ body {
 ._navbar {
   padding-top: 10px;
   height: 60px;
-  position: fixed;
+  position: absolute;
   background-color: rgba(2, 2, 2, 0.1);
   width: 100%;
+  top: 0;
   ._navbarLeft {
     width: 20%;
     float: left;
@@ -39,7 +39,9 @@ body {
     }
   }
 }
-
+.contentSection{
+  padding-top: 70px;
+}
 #backToTopBtn {
   position: fixed;
   padding: 0;
