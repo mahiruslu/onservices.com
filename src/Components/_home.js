@@ -13,7 +13,7 @@ function _home() {
       <div className="slideNext">
         <Link to="mainAbout" smooth={true} duration={700}>
           <Button className="_slideNextButton">
-            <ArrowDownward></ArrowDownward>
+            <ArrowDownward className="nextPageArrow"></ArrowDownward>
           </Button>
         </Link>
       </div>

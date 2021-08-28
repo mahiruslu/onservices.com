@@ -19,7 +19,7 @@ function _about() {
       <div className="slideNext">
         <Link to="mainServices" smooth={true} duration={700}>
           <Button className="_slideNextButton">
-            <ArrowDownward></ArrowDownward>
+            <ArrowDownward className="nextPageArrow"></ArrowDownward>
           </Button>
         </Link>
       </div>

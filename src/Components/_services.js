@@ -13,7 +13,7 @@ function _services() {
       <div className="slideNext">
         <Link to="mainReferences" smooth={true} duration={700}>
           <Button className="_slideNextButton">
-            <ArrowDownward></ArrowDownward>
+            <ArrowDownward className="nextPageArrow"></ArrowDownward>
           </Button>
         </Link>
       </div>

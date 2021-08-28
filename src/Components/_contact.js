@@ -13,7 +13,7 @@ function _contact() {
       <div className="slideNext">
         <Link to="mainHelp" smooth={true} duration={700}>
           <Button className="_slideNextButton">
-            <ArrowDownward></ArrowDownward>
+            <ArrowDownward className="nextPageArrow"></ArrowDownward>
           </Button>
         </Link>
       </div>

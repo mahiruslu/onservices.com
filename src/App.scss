@@ -67,13 +67,14 @@ body {
 
 .home {
   height: 100vh;
-  background-color: white;
   padding-top: 70px;
   position: relative;
   display: flex;
   width: 100vw;
   justify-content: center;
   align-items: center;
+  background: white url("./Images/mainPage.jpg") no-repeat fixed center;
+  color: #27b0e6;
 }
 
 .contact {
@@ -92,15 +93,22 @@ body {
   text-align: center;
 }
 .slideNext {
-  position: absolute;
+  position: relative;
   bottom: 0;
   animation: move ease 2s alternate;
+  color: white;
   ._slideNextButton {
     // top: 50%;
     // left: 50%;
     // transform: translate(-50%, -50%);
     border-radius: 50%;
   }
+}
+._slideNextButton {
+  position: fixed;
+}
+.nextPageArrow {
+  color: white;
 }
 @keyframes move {
   0% {

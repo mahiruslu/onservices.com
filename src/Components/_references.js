@@ -13,7 +13,7 @@ function _references() {
       <div className="slideNext">
         <Link to="mainContact" smooth={true} duration={700}>
           <Button className="_slideNextButton">
-            <ArrowDownward></ArrowDownward>
+            <ArrowDownward className="nextPageArrow"></ArrowDownward>
           </Button>
         </Link>
       </div>
