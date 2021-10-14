@@ -31,9 +31,13 @@ function App() {
     }
   };
   window.addEventListener("scroll", checkScrollTop);
+  
   return (
     <>
+    <div className="navBarWrapper">
       <NavBar />
+    </div>
+    <div className="contentWrapper">
       <div id="mainHome">
         <Home />
       </div>
@@ -52,6 +56,7 @@ function App() {
       <div id="mainHelp">
         <Help />
       </div>
+    </div>
 
       <div style={{ display: showScroll ? "flex" : "none" }}>
         <Button id="backToTopBtn" onClick={() => scroller.scrollToTop()}>

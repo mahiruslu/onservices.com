@@ -10,7 +10,7 @@ function _contact() {
         <h1>OnServices Ltd.Şti.</h1>
         <h5>Güvenli Geçiş Teknolojileri</h5>
       </div>
-      <div className="slideNext">
+      <div className="slideNextWrapper">
         <Link to="mainHelp" smooth={true} duration={700}>
           <Button className="_slideNextButton">
             <ArrowDownward className="nextPageArrow"></ArrowDownward>
